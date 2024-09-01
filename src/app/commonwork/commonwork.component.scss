@@ -1,0 +1,43 @@
+.image1 {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-overlay {
+    display: block;
+    position: relative;
+}
+
+.image-overlay img {
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.image-overlay .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 95%;
+    height: 90%;
+    margin: 15px;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0);
+    transition: background 0.5s ease;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    z-index: 2;
+}
+
+.image-overlay:hover img {
+    transform: scale(1.1);
+}
+
+.image-overlay:hover .overlay {
+    position: absolute;
+    background: rgba(34, 26, 26, 0.85);
+    opacity: 1;
+}

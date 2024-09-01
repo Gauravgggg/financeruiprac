@@ -1,0 +1,110 @@
+.background-header {
+    position: inherit;
+    color: white;
+    overflow: hidden;
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.background-header2 {
+    position: relative;
+    color: white;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.background-image1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -2;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.background-image1 {
+    background-image: url('./../../assets/parallax-09.jpg');
+}
+
+.border-dark {
+    background: #020e1e none repeat scroll 0 0;
+}
+
+.background-image4 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -2;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.background-image4 {
+    background-image: url('./../../assets/parallax-04.jpg');
+}
+
+.header-boder {
+    font-weight: 700;
+    font-size: 90px;
+}
+
+.about-section2 {
+    color: black;
+}
+
+.about-paragraph-firstimg {
+    font-weight: 400;
+    font-size: 20px;
+    font-family: "Cairo";
+}
+
+.header-boder1 {
+    font-weight: 700;
+    font-size: 80px;
+}
+
+.about-paragraph {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+@media screen and (max-width:426px) {
+    .about-paragraph {
+        font-weight: 400;
+        font-size: 12px;
+    }
+    .header-boder1 {
+        font-weight: 700;
+        font-size: 30px;
+    }
+    .header-boder {
+        font-weight: 700;
+        font-size: 40px;
+    }
+    .about-paragraph-firstimg {
+        font-weight: 400;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width>539px) {
+    .header-boder {
+        font-weight: 700;
+        font-size: 60px;
+    }
+}

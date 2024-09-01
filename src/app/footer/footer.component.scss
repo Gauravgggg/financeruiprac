@@ -1,0 +1,98 @@
+.background-header2 {
+    position: relative;
+    color: white;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    text-align: center;
+}
+
+.background-image5 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.background-image5 {
+    background-image: url('./../../assets/parallax-06.jpg');
+}
+
+.header-boder {
+    font-weight: 700;
+    font-size: 90px;
+}
+
+.arrow-red {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    // bottom: -1960px;
+}
+
+.footer {
+    background-color: #C81010;
+    color: white;
+}
+
+.footer-icon {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.footer-num {
+    color: red;
+}
+
+.footer-header {
+    color: white;
+}
+
+.white-color-css {
+    color: white;
+}
+
+.footer-anchor {
+    color: #999;
+    text-decoration: none;
+}
+
+.footer-paragram {
+    color: #999;
+}
+
+.footer-anchor:hover {
+    color: red;
+}
+
+.footerbg-color {
+    background-color: #020e1e;
+}
+
+@media (max-width: 768px) {
+    .header-boder {
+        font-weight: 700;
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .footer-image {
+        display: none;
+    }
+}
+
+@media (max-width>768px) {
+    .header-boder {
+        font-weight: 700;
+        font-size: 90px;
+    }
+}

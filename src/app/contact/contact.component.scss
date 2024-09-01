@@ -1,0 +1,170 @@
+.background-header {
+    color: white;
+    overflow: hidden;
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.background-image1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -2;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.background-image1 {
+    background-image: url('./../../assets/parallax-09.jpg');
+}
+
+.form-control {
+    color: white;
+}
+
+.header-boder {
+    font-weight: 700;
+    font-size: 5.3rem;
+    color: white;
+}
+
+.background-header2 {
+    position: relative;
+    color: white;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.background-image2 {
+    position: absolute;
+    display: block;
+    top: 0%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    max-width: 100%;
+    height: auto;
+    // background-size: cover;
+    // background-position: center;
+    // background-attachment: fixed;
+    // background-repeat: no-repeat;
+}
+
+.background-image2 {
+    background-image: url('./../../assets/parallax-02.jpg');
+}
+
+.email-contact p {
+    color: #999;
+    text-decoration: none;
+}
+
+.bi-envelope,
+.bi-headset,
+.bi-geo-alt {
+    font-size: 2rem;
+    color: red;
+}
+
+.footer {
+    background-color: red;
+    color: white;
+}
+
+.footer-icon {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.footer-num {
+    color: red;
+}
+
+.footer-header {
+    color: white;
+}
+
+.footer-anchor {
+    color: #999;
+    text-decoration: none;
+}
+
+.footer-paragram {
+    color: #999;
+}
+
+.footer-anchor:hover {
+    color: red;
+}
+
+.white-color-css {
+    color: white;
+}
+
+.contact3 {
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.contact3 input,
+textarea {
+    outline: 0;
+    border-width: 0 0 1px;
+    border-color: #dd442c;
+    border-style: dashed;
+    // border-bottom: 1px dashed #dd442c;
+    // outline: 0;
+}
+
+.contact3 button {
+    background-color: #C81010;
+    color: #FFFFFF;
+    border-radius: 3px;
+}
+
+.contact3 {
+    input::placeholder {
+        color: #999;
+    }
+    textarea::placeholder {
+        color: #999;
+    }
+}
+
+.footerbg-color {
+    background-color: #020e1e;
+}
+
+@media screen and (max-width: 426px) {
+    .footer-image {
+        display: none;
+    }
+    .header-boder {
+        font-weight: 700;
+        font-size: 2.3rem;
+        color: white;
+    }
+    .contact3 input {
+        margin: 9px;
+    }
+}
+
+@media screen and (max-width>539px) {
+    .header-boder {
+        font-weight: 700;
+        font-size: 4rem;
+    }
+}

@@ -1,0 +1,139 @@
+.background-header {
+    color: white;
+    overflow: hidden;
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.background-header3 {
+    color: white;
+    overflow: hidden;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+}
+
+.header2 {
+    font-family: Georgia, serif;
+    font-style: oblique;
+}
+
+.background-image1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -2;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.background-image1 {
+    background-image: url('./../../assets/parallax-09.jpg');
+}
+
+.bg-transparent {
+    background-color: transparent;
+    transition: background-color 0.3s;
+    color: white;
+}
+
+.bg-white {
+    background-color: white;
+    transition: background-color 0.3s;
+    .nav-link {
+        color: black;
+    }
+}
+
+.header-boder {
+    font-weight: 700;
+    font-size: 90px;
+    color: white;
+}
+
+.nav-link {
+    position: relative;
+    color: white;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after,
+.nav-link:active::after {
+    width: 100%;
+}
+
+.product-dropdown {
+    font-size: 0.8rem;
+    margin-left: 4px;
+}
+
+.white-color-css {
+    color: white;
+}
+
+.header-anchor {
+    color: white;
+    text-decoration: none;
+}
+
+.header-anchor:hover {
+    color: red;
+}
+
+.header-log {
+    font-size: 7rem;
+    width: 50%;
+}
+
+.navbar-toggler {
+    align-items: start;
+    border: none;
+}
+
+@media screen and (max-width: 426px) {
+    .header-log {
+        font-size: 7rem;
+        width: 30%;
+    }
+    .navbar-brand {
+        text-align: center;
+        margin-left: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .navbar-brand {
+        text-align: center;
+        width: 194px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .header-log {
+        font-size: 7rem;
+        width: 32%;
+    }
+    .navbar-collapse {
+        text-align: center;
+    }
+}

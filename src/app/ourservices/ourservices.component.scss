@@ -1,0 +1,135 @@
+.background-header {
+    color: white;
+    overflow: hidden;
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.background-image1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -2;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.background-image1 {
+    background-image: url('./../../assets/parallax-09.jpg');
+}
+
+.header-boder {
+    font-weight: 700;
+    font-size: 90px;
+    color: white;
+}
+
+.background-header2,
+.background-header3 {
+    position: relative;
+    color: white;
+    overflow: hidden;
+    height: 60vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    text-align: center;
+}
+
+.background-header4 {
+    background-color: red;
+    position: relative;
+    color: white;
+    overflow: hidden;
+    height: 60vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    text-align: center;
+}
+
+.background-image3 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -2;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.background-image3 {
+    background-image: url('./../../assets/parallax-03.jpg');
+}
+
+.about-section2 {
+    color: black;
+}
+
+.header-boder {
+    font-weight: 700;
+    font-size: 90px;
+    color: white;
+}
+
+.header-boder1 {
+    font-weight: 700;
+    font-size: 80px;
+    color: #444;
+}
+
+.header-boder2 {
+    font-weight: 700;
+    font-size: 70px;
+    color: #fff;
+}
+
+.about-paragraph {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.serives-color {
+    color: red;
+}
+
+.service-color1 {
+    color: #fff;
+}
+
+@media screen and (max-width:426px) {
+    .background-header2,
+    .background-header3,
+    .background-header4 {
+        height: 100vh;
+    }
+    .header-boder1,
+    .header-boder2 {
+        font-size: 40px;
+    }
+    .about-paragraph {
+        font-weight: 400;
+        font-size: 10px;
+    }
+    .header-boder {
+        font-weight: 700;
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width>539px) {
+    .header-boder {
+        font-weight: 700;
+        font-size: 4rem;
+    }
+}

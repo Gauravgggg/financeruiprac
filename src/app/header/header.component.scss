@@ -1,0 +1,208 @@
+// .nav-link:visited,
+// .nav-link:link {
+//     border-bottom: 2px solid transparent;
+// }
+// .nav-link:hover,
+// .nav-link:active {
+//     transition: border-bottom 0.6ms ease;
+//     border-bottom: 2px solid black;
+// }
+.background-header {
+    color: white;
+    overflow: hidden;
+    display: flex;
+    height: 78vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header2 {
+    font-family: Georgia, serif;
+    font-style: oblique;
+}
+
+.background-image1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -2;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.background-image1 {
+    background-image: url('./../../assets/parallax-09.jpg');
+}
+
+.bg-transparent {
+    background-color: transparent;
+    transition: background-color 0.3s;
+    color: white;
+}
+
+.bg-white {
+    background-color: white;
+    transition: background-color 0.3s;
+    .nav-link {
+        color: black;
+    }
+}
+
+.header-boder {
+    font-weight: 700;
+    font-size: 90px;
+}
+
+.nav-link {
+    position: relative;
+    color: white;
+}
+
+.nav-link-dark {
+    position: relative;
+    color: black;
+}
+
+.nav-link-dark::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after,
+nav-link-dark::after,
+.nav-link:active::after {
+    width: 100%;
+}
+
+.product-dropdown {
+    font-size: 0.8rem;
+    margin-left: 4px;
+}
+
+.white-color-css {
+    color: white;
+}
+
+.header-anchor {
+    color: white;
+    text-decoration: none;
+}
+
+.header-anchor:hover {
+    color: red;
+}
+
+.hide-mobile {
+    display: flex;
+}
+
+.header-log {
+    font-size: 7rem;
+    width: 50%;
+}
+
+.navbar-toggler {
+    align-items: start;
+    border: none;
+}
+
+.section1-button {
+    margin-bottom: 4rem;
+    text-align: end;
+}
+
+.section-paragraph {
+    text-align: end;
+}
+
+@media screen and (max-width:426px) {
+    .hide-mobile {
+        display: none;
+    }
+    .header-boder {
+        font-weight: 700;
+        font-size: 40px;
+        text-align: start;
+    }
+    .header-log {
+        font-size: 7rem;
+        width: 30%;
+    }
+    .navbar-brand {
+        text-align: center;
+        margin-left: 1.5rem;
+    }
+    .section1-button {
+        text-align: start;
+    }
+    .section-paragraph {
+        text-align: start;
+        font-size: 1rem;
+    }
+    .navbar-collapse {
+        text-align: center;
+    }
+}
+
+@media Screen and (max-width: 769px) {
+    .section-paragraph {
+        text-align: start;
+        font-size: 1rem;
+    }
+    .section1-button {
+        text-align: start;
+    }
+    .header-log {
+        font-size: 7rem;
+        width: 32%;
+    }
+    .navbar-collapse {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:321px) {
+    .navbar-brand {
+        text-align: center;
+        margin-left: 1.5rem;
+        width: 195px;
+    }
+    .navbar-toggler {
+        align-items: start;
+        border: none;
+    }
+    .header-boder {
+        font-weight: 700;
+        font-size: 40px;
+        text-align: start;
+    }
+    .section1-button {
+        margin-bottom: 4rem;
+        text-align: start;
+    }
+    .section-paragraph {
+        text-align: start;
+    }
+}
